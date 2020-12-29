@@ -1,0 +1,21 @@
+{
+  "name": "patchboot-install",
+  "version": "0.0.1",
+  "description": "A utility to publish PatchBoot apps",
+  "main": "main.js",
+  "bin": {
+    "patchboot-install": "./main.js"
+  },
+  "repository": "https://github.com/retog/patchboot-install",
+  "keywords": [
+    "Scuttlebutt",
+    "ssb",
+    "PatchBoot"
+  ],
+  "author": "Reto Gmür",
+  "license": "MIT",
+  "dependencies": {
+    "pull-stream": "^3.6.14",
+    "ssb-client": "^4.9.0"
+  }
+}
